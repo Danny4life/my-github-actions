@@ -21,6 +21,10 @@ public class GithubActionsApplication {
 		SpringApplication.run(GithubActionsApplication.class, args);
 	}
 
+	public static int add(int a, int b){
+		return a + b;
+	}
+
 /**
  * 1. Create a spring project
  * 2. Expose a simple endpoint inside the main class
@@ -41,6 +45,7 @@ public class GithubActionsApplication {
  * 17. run docker images - to check list of images
  * 18. run the docker image - docker run -p 8080:8080 aniel1089/demo-image
  * 19. now go to the browser localhost:8080/welcome
+ * 20. write test and see how it works
  *
  */
 
