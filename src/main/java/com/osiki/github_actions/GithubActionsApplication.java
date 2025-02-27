@@ -39,7 +39,9 @@ public class GithubActionsApplication {
  * 15. start docker desktop so you can pull the image
  * 16. open the terminal and paste the docker pull command gotten from docker hub
  * 17. run docker images - to check list of images
- * 18. run the docker image - docker run -p 8080:8080 aniel1089/demo-image:latest
+ * 18. run the docker image - docker run -p 8080:8080 aniel1089/demo-image
+ * 19. now go to the browser localhost:8080/welcome
+ *
  */
 
 }
