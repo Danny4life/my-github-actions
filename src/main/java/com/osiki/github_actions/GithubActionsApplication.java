@@ -26,7 +26,7 @@ public class GithubActionsApplication {
  * 2. Expose a simple endpoint inside the main class
  * 3. push the project to github
  * 4. Go to Actions and select java with maven
- * 5. edit the name and run
+ * 5. edit the name and run line
  * 6. commit the changes to a new branch
  * 7. write the docker command on maven.yml file
  * 8. signin to docker hub and create a repo
