@@ -21,11 +21,13 @@ public class GithubActionsApplication {
 		SpringApplication.run(GithubActionsApplication.class, args);
 	}
 
-//	git init
-//	git add README.md
-//	git commit -m "first commit"
-//	git branch -M main
-//	git remote add origin https://github.com/Danny4life/my-github-actions.git
-//	git push -u origin main
+/**
+ * 1. Create a spring project
+ * 2. Expose a simple endpoint inside the main class
+ * 3. push the project to github
+ * 4. Go to Actions and select java with maven
+ * 5. edit the name and run
+ * 6. commit the changes to a new branch
+ */
 
 }
