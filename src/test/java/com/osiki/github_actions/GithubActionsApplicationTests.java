@@ -15,7 +15,7 @@ class GithubActionsApplicationTests {
 	@Test
 	public void testAddTwoNumbers(){
 
-		assertEquals(3, 2);
+		assertEquals(5, GithubActionsApplication.add(3, 2));
 	}
 
 }
