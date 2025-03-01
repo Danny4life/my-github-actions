@@ -33,6 +33,7 @@ jobs:
 
     - name: Build with Maven
       run: mvn clean install
+#Stop here for CI/CD
 
     - name: Run Unit test
       run: mvn test
