@@ -34,10 +34,10 @@ public class GithubActionsApplication {
  * 6. commit the changes to a new branch
  * 7. write the docker command on maven.yml file
  * 8. signin to docker hub and create a repo
- * 9. add the repo name to the image
+ * 9. add the repo name to the maven.yml file - image
  * 10. add the jar name demo image on pom.xml inside finalName tag
  * 11. create a dockerfile inside the root
- * 12. create secrets DOCKER_USERNAME (aniel1089) and DOCKER PASSWORD(SCHool0000dummy) on github repo - settings - secret and variables - new actions - repository
+ * 12. create secrets your DOCKER_USERNAME (aniel1089) and your DOCKER PASSWORD(SCHool0000dummy) on github repo - settings - secret and variables - new actions - repository
  * 13. push to github
  * 14. go to docker hub to check the image pushed
  * 15. start docker desktop so you can pull the image
